@@ -21,7 +21,7 @@ rm -f '/etc/crouton/xserverrc-x11'
 # Freon?
 freon=''
 if [ ! -f "/sys/class/tty/tty0/active" ]; then
-    freon='y'
+    freon='n'
 fi
 
 # Pull in backported Xorg when possible on precise to support newer hardware
